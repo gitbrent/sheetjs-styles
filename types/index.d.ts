@@ -332,6 +332,7 @@ export interface WBProps {
 export interface WBView {
 	/** Right-to-left mode */
 	RTL?: boolean;
+	ShowGridLines?: boolean;
 }
 
 /** Other Workbook Properties */
