@@ -11,9 +11,7 @@ SheetJS with Style! Create Excel spreadsheets with basic styling options using J
 </p>
 <br/>
 
-[![Known Vulnerabilities](https://snyk.io/test/npm/xlsx-js-style/badge.svg)](https://snyk.io/test/npm/xlsx-js-style) [![npm downloads](https://img.shields.io/npm/dm/xlsx-js-style.svg)](https://www.npmjs.com/package/xlsx-js-style)
-[![jsdelivr downloads](https://data.jsdelivr.com/v1/package/npm/xlsx-js-style/badge)](https://www.jsdelivr.com/package/npm/xlsx-js-style)
-[![typescripts definitions](https://img.shields.io/npm/types/xlsx-js-style)](https://img.shields.io/npm/types/xlsx-js-style)
+ [![npm downloads](https://img.shields.io/npm/dm/xlsx-js-style.svg)](https://www.npmjs.com/package/xlsx-js-style) [![jsdelivr downloads](https://data.jsdelivr.com/v1/package/npm/xlsx-js-style/badge)](https://www.jsdelivr.com/package/npm/xlsx-js-style) [![typescripts definitions](https://img.shields.io/npm/types/xlsx-js-style)](https://img.shields.io/npm/types/xlsx-js-style) [![Known Vulnerabilities](https://snyk.io/test/npm/xlsx-js-style/badge.svg)](https://snyk.io/test/npm/xlsx-js-style)
 
 ## 🔌 Installation
 
