@@ -12,6 +12,7 @@ SheetJS with Style! Create Excel spreadsheets with basic styling options using J
 <br/>
 
 [![Known Vulnerabilities](https://snyk.io/test/npm/xlsx-js-style/badge.svg)](https://snyk.io/test/npm/xlsx-js-style) [![npm downloads](https://img.shields.io/npm/dm/xlsx-js-style.svg)](https://www.npmjs.com/package/xlsx-js-style)
+[![jsdelivr downloads](https://data.jsdelivr.com/v1/package/npm/xlsx-js-style/badge)](https://www.jsdelivr.com/package/npm/xlsx-js-style)
 [![typescripts definitions](https://img.shields.io/npm/types/xlsx-js-style)](https://img.shields.io/npm/types/xlsx-js-style)
 
 ## 🔌 Installation
@@ -30,8 +31,8 @@ Install browser:
 
 ## 🗒 Core API
 
--   Refer to the [SheetJS](https://sheetjs.com/) documentation for core API reference
--   Current version of sheetjs used: **0.18.5**
+- Refer to the [SheetJS](https://sheetjs.com/) documentation for core API reference
+- Current version of sheetjs used: **0.18.5**
 
 ## 🗒 Style API
 
@@ -43,10 +44,10 @@ const wb = XLSX.utils.book_new();
 
 // STEP 2: Create data rows and styles
 let row = [
-	{ v: "Courier: 24", t: "s", s: { font: { name: "Courier", sz: 24 } } },
-	{ v: "bold & color", t: "s", s: { font: { bold: true, color: { rgb: "FF0000" } } } },
-	{ v: "fill: color", t: "s", s: { fill: { fgColor: { rgb: "E9E9E9" } } } },
-	{ v: "line\nbreak", t: "s", s: { alignment: { wrapText: true } } },
+ { v: "Courier: 24", t: "s", s: { font: { name: "Courier", sz: 24 } } },
+ { v: "bold & color", t: "s", s: { font: { bold: true, color: { rgb: "FF0000" } } } },
+ { v: "fill: color", t: "s", s: { fill: { fgColor: { rgb: "E9E9E9" } } } },
+ { v: "line\nbreak", t: "s", s: { alignment: { wrapText: true } } },
 ];
 
 // STEP 3: Create worksheet with rows; Add worksheet to workbook
@@ -59,8 +60,8 @@ XLSX.writeFile(wb, "xlsx-js-style-demo.xlsx");
 
 ### Cell Style Properties
 
--   Cell styles are specified by a style object that roughly parallels the OpenXML structure.
--   Style properties currently supported are: `alignment`, `border`, `fill`, `font`, `numFmt`.
+- Cell styles are specified by a style object that roughly parallels the OpenXML structure.
+- Style properties currently supported are: `alignment`, `border`, `fill`, `font`, `numFmt`.
 
 | Style Prop  | Sub Prop       | Default     | Description/Values                                                                                |
 | :---------- | :------------- | :---------- | ------------------------------------------------------------------------------------------------- |
@@ -104,27 +105,27 @@ Colors for `border`, `fill`, `font` are specified as an name/value object - use 
 
 Border style property is one of the following values:
 
--   `dashDotDot`
--   `dashDot`
--   `dashed`
--   `dotted`
--   `hair`
--   `mediumDashDotDot`
--   `mediumDashDot`
--   `mediumDashed`
--   `medium`
--   `slantDashDot`
--   `thick`
--   `thin`
+- `dashDotDot`
+- `dashDot`
+- `dashed`
+- `dotted`
+- `hair`
+- `mediumDashDotDot`
+- `mediumDashDot`
+- `mediumDashed`
+- `medium`
+- `slantDashDot`
+- `thick`
+- `thin`
 
-**Border Notes**
+### Border Notes
 
 Borders for merged areas are specified for each cell within the merged area. For example, to apply a box border to a merged area of 3x3 cells, border styles would need to be specified for eight different cells:
 
--   left borders (for the three cells on the left)
--   right borders (for the cells on the right)
--   top borders (for the cells on the top)
--   bottom borders (for the cells on the left)
+- left borders (for the three cells on the left)
+- right borders (for the cells on the right)
+- top borders (for the cells on the top)
+- bottom borders (for the cells on the left)
 
 ## 🙏 Thanks
 
@@ -134,10 +135,10 @@ and [sheetjs-style-v2](https://www.npmjs.com/package/sheetjs-style-v2) (by [Raul
 
 All projects are under the Apache 2.0 License
 
--   [sheetjs](https://github.com/SheetJS/sheetjs)
--   [js-xlsx](https://github.com/protobi/js-xlsx)
--   [sheetjs-style](https://www.npmjs.com/package/sheetjs-style)
--   [sheetjs-style-v2](https://www.npmjs.com/package/sheetjs-style-v2)
+- [sheetjs](https://github.com/SheetJS/sheetjs)
+- [js-xlsx](https://github.com/protobi/js-xlsx)
+- [sheetjs-style](https://www.npmjs.com/package/sheetjs-style)
+- [sheetjs-style-v2](https://www.npmjs.com/package/sheetjs-style-v2)
 
 ## 🔖 License
 
