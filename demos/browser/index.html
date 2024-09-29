@@ -62,6 +62,8 @@
 
 		function doDemoBrowser() {
 			const wb = XLSX.utils.book_new();
+			// NEW! in v1.3.0
+			//wb.Workbook = { Views: [{ RTL: true, ShowGridLines: false }] };
 			let row1 = ["a", "b", "c"];
 			let row2 = [1, 2, 3];
 			let row3 = [

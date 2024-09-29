@@ -126,6 +126,21 @@ Borders for merged areas are specified for each cell within the merged area. For
 -   top borders (for the cells on the top)
 -   bottom borders (for the cells on the left)
 
+## 🗒 View API
+
+### View Example
+
+```js
+wb.Workbook = { Views: [{ RTL: true, ShowGridLines: false }] };
+```
+
+### View Properties
+
+| View Prop       | Default | Description/Values                   |
+| :-------------- | :------ | ------------------------------------ |
+| `RTL`           | `false` | Whether to enable Right-to-Left mode |
+| `ShowGridLines` | `true`  | Whether to show gridlines            |
+
 ## 🙏 Thanks
 
 This project is a fork of [SheetJS/sheetjs](https://github.com/sheetjs/sheetjs) combined with code from
