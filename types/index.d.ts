@@ -332,6 +332,13 @@ export interface WBProps {
 export interface WBView {
 	/** Right-to-left mode */
 	RTL?: boolean;
+	/**
+	 * @description show gridlines
+	 * @default true
+	 * @summary custom [xlsx-js-style] property
+	 * @since v1.3.0
+	 */
+	ShowGridLines?: boolean;
 }
 
 /** Other Workbook Properties */

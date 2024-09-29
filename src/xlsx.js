@@ -14776,7 +14776,11 @@ function parse_ws_xml_sheetviews(data, wb) {
 function write_ws_xml_sheetviews(ws, opts, idx, wb) {
 	var sview = ({workbookViewId:"0"});
 	// $FlowIgnore
-	if((((wb||{}).Workbook||{}).Views||[])[0]) sview.rightToLeft = wb.Workbook.Views[0].RTL ? "1" : "0";
+	if((((wb||{}).Workbook||{}).Views||[])[0]) {
+		const { RTL, ShowGridLines = true } = wb.Workbook.Views[0];
+		sview.rightToLeft = RTL ? "1" : "0";
+		sview.showGridLines = ShowGridLines ? "1" : "0";
+	}
 	return writextag("sheetViews", writextag("sheetView", null, sview), {});
 }
 

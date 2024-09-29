@@ -3,8 +3,8 @@
  * AUTH: Brent Ely (https://github.com/gitbrent/)
  * DATE: 20220404
  * DESC: xlsx-js-style feature demos for Node.js
- * REQS: npm 14.x + `npm install pptxgenjs`
- * USAGE: `node demo.js`       (runs local tests with callbacks etc)
+ * REQS: npm 14.x + `npm i`
+ * USAGE: `node demo.js` (runs local tests with callbacks etc)
  */
 
 import XLSX from "xlsx-js-style";
